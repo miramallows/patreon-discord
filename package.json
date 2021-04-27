@@ -1,0 +1,18 @@
+{
+  "name": "patreon-discord",
+  "version": "0.0.1",
+  "description": "a patreon api v2 wrapper that helps you grab your patrons' data easily without hassle.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/miramallows/patreon-discord"
+  }
+}
