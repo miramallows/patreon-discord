@@ -5,6 +5,7 @@ patreon's api documentation can be found [here](https://docs.patreon.com/). do n
 
 don't think anyone will use this, but the patreon integration is pretty messy and isn't made discord integrations. this package is ideal for you to easily fix discrepancies between roles and pledges, that may occur due to declined payments, or for you to add external perks. c:
 
+
 ### example usage
 ```js
 const { Campaign } = require('patreon-discord')
