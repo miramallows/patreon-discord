@@ -31,11 +31,13 @@ myCampaign.fetchPatron('abcd-149328432-adsfdanca')
 
 > your patreon token can be found at the [Developer Portal](https://www.patreon.com/portal/registration/register-clients), called "Creator Access Token".
 
-`campaign.fetchPatrons(patronStatusFilter[]<optional>)` method
+
+`Campaign.fetchPatrons(patronStatusFilter[]<optional>)` method
 - takes one optional argument in an array format. you can input filters to choose what statuses of patrons' you'd like to receive. accepts 4 different options: `active_patron`, `declined_patron`, `former_patron` and `null`. null is possible according to Patreon's documentation and in my experience - this is if the user has never even pledged.
 - returns an array of `patron` object.
 
-`campaign.fetchPatron(pledgeId)` method
+
+`Campaign.fetchPatron(pledgeId)` method
 - inputs an id of a pledge
 - returns a `patron` object.
 
