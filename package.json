@@ -2,7 +2,7 @@
   "name": "patreon-discord",
   "author": "miramallows",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a patreon api v2 wrapper that helps you grab your patrons' data easily without hassle.",
   "main": "index.js",
   "scripts": {
